@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background_content_bottom"
     tools:context=".MainActivity">
 
     <TextView
@@ -46,7 +46,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Prev"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="#0943AA"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +62,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Next"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="#0943AA"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="50dp"
         android:layout_marginEnd="5dp"/>
